@@ -3,6 +3,9 @@ title = "ぎーろぐ"
 baseURL = "https://geek-space-hq.github.io/"
 theme = "bilberry-hugo-theme"
 publishDir = "docs"
+canonifyurls = true
+hasCJKLanguage = true
+languageCode = "ja-jp"
 
 enableRobotsTXT = true
 
