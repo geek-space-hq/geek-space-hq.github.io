@@ -35,7 +35,7 @@ disqusShortname = "bilberry-hugo-theme"
 
   # Description and meta data for the search engines
   author = "Geek-Space"
-  description = "Bilberry Premium Theme for Hugo."
+  description = "あんなことからこんなことまで"
   keywords = "blog,personal,responsive,search,font awesome,pages,posts,highlight.js,syntax highlighting"
 
   # How many articles should be displayed at once?
