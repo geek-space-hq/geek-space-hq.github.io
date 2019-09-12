@@ -2,7 +2,7 @@ title = "ぎーろぐ"
 # Add an trailing slash to ensure that all fonts render correctly.
 baseURL = "https://geek-space-hq.github.io/"
 theme = "bilberry-hugo-theme"
-publishDir = "."
+publishDir = "docs"
 canonifyurls = true
 hasCJKLanguage = true
 languageCode = "ja-jp"
