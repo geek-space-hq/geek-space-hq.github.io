@@ -13,6 +13,7 @@
 注: `type = [article, audio, code, gallary, link, page, quote, video]`
 
 articleが一番スタンダードっぽい?
+`${title}` は全てアルファベットでKebab caseとする
 
 2. 生成されたMarkdownファイルにお好みのエディタで記事を書く
 3. `$ hugo`でhtmlとかその他諸々を生成する
