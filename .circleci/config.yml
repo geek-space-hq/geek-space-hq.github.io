@@ -1,0 +1,15 @@
+version: 2.1
+jobs:
+  bulid:
+    docker:
+      - image: cibuilds/hugo:latest
+    branches:
+      only:
+        - source
+    steps:
+      - run: apk update && apk add git
+      - checkout
+      - run: git submodule sync && git submodule update --init
+      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - deploy:
+        command: ./.circleci/deploy.sh
