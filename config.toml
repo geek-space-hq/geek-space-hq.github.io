@@ -1,0 +1,148 @@
+title = "ぎーろぐ"
+# Add an trailing slash to ensure that all fonts render correctly.
+baseURL = "https://geek-space-hq.github.io/"
+theme = "bilberry-hugo-theme"
+publishDir = "docs"
+canonifyurls = true
+hasCJKLanguage = true
+languageCode = "ja-jp"
+
+enableRobotsTXT = true
+
+# Change to one of your content languages definded at the end.
+DefaultContentLanguage = "ja"
+
+# Enable / Disable Google Analytics statistics for your site
+googleAnalytics = ""
+
+# Enable / Disable comments on the articles via Disqus.
+disqusShortname = "bilberry-hugo-theme"
+
+# Enable / Disable open link with a new tab.
+[blackfriday]
+  hrefTargetBlank = false
+
+[params]
+  # Favicon for the browser's favorites and tabs
+  favicon = "" # set a favicon icon
+
+  # Custom CSS / JS modules that will be imported by the template.
+  # Files are relative to the static/ directory or a URL.
+  # Files are imported in the order they appear here, after
+  # theme.css and theme.js, respectively.
+  css_modules = []
+  js_modules = []
+
+  # Description and meta data for the search engines
+  author = "Geek-Space"
+  description = "あんなことからこんなことまで"
+  keywords = "blog,personal,responsive,search,font awesome,pages,posts,highlight.js,syntax highlighting"
+
+  # How many articles should be displayed at once?
+  paginate = 5
+
+  # Enable / Disable MathJax
+  enable_mathjax    = false
+
+  # Enable / Disable algolia search
+  algolia_search    = true
+  algolia_appId     = "Y2C4RWMPXW"
+  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  algolia_indexName = "default-content"
+    # Set this option to false if you want to search within all articles in all languages at once
+    algolia_currentLanguageOnly = true
+
+  # Style configuration
+    # set the width of your site's content
+    siteWidth = "800px"
+
+    # let hugo automatically resize and crop your images to the correct sizes
+    resizeImages = true
+
+  # Header configuration
+    # your subtitle if you want to use any
+    subtitle = "あんなことからこんなことまで"
+
+    # if you want to use gravatar for the header image
+    # gravatarEMail = "code@lednerb.de"
+
+    # set an path to the image file you want to use | overwrites gravatar
+    customImage = "GeekBOX.png"
+
+    # define the icon you want to use for the overlay for the customImage or gravatar.
+    overlayIcon = "fa-home"
+
+    # always display the top navigation (with pages and search) on non-mobile screens
+    permanentTopNav = false
+
+    # show a language chooser in the header
+    showHeaderLanguageChooser = false
+
+  # Content configuration
+    # Enable an optional pinned page to display at the top of the index
+    # pinnedPost = "/content/github/"
+    # Set to true to pin only to the first page, false to all pages
+    # pinOnlyToFirstPage = true
+
+    # enable automatical localization of the article's PublishedDate with momentjs
+    enableMomentJs = true
+
+    # customize the date format | only works if momentjs is disabled | only works with English month names
+    # you can customize it with the options you find here:
+    # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+    dateFormat = "2006-01-02"
+
+    # display the estimated reading time for an article
+    showReadingTime = false
+
+  # Footer configuration
+    showFooter = true
+
+    # How many articles should be displayed at latest posts in the footer?
+    # Set to -1 to hide the 'Latest Posts' column
+    amountLatestPostsInFooter = 7
+
+    # How many categories should be displayed in the footer section?
+    # Set to -1 to hide the 'Categories' column
+    amountCategoriesInFooter = 7
+
+    # show a language chooser in the footer
+    showFooterLanguageChooser = false
+
+    # social media profile urls for the footer links
+    showSocialMedia = true
+
+    facebook   = ""
+    twitter    = "https://twitter.com/gdgd_club"
+    googleplus = ""
+    pinterest  = ""
+    instagram  = ""
+    tumblr     = ""
+    youtube    = ""
+    vimeo      = ""
+    github     = "https://github.com/geek-space-hq"
+    xing       = ""
+    linkedin   = ""
+
+    # credits line configuration
+    copyrightBy = "Geek Space"
+    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
+    copyrightYearOverride = "2019/09"
+    copyrightUrl = "https://github.com/geek-space-hq"
+    creditsText = "Geek Space"
+    creditsUrl = "https://github.com/geek-space-hq/geek-space-hq.github.io"
+
+
+# customize your available languages for your multi-langual site
+# or delete the [Languages] blog to use the theme with only one supported language
+
+# don't change anything below
+[taxonomies]
+  author   = "author"
+  tag      = "tags"
+  category = "categories"
+
+[outputs]
+  home = [ "HTML", "JSON", "RSS" ]
+  page = [ "HTML" ]
+
