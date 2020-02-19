@@ -18,4 +18,4 @@ articleが一番スタンダードっぽい?
 2. 生成されたMarkdownファイルにお好みのエディタで記事を書く
 3. `$ hugo`でhtmlとかその他諸々を生成する
 4. Gitでaddしてcommit, push
-5. Fork元リポジトリの**sourceブランチ**にPRを送る
+5. Fork元リポジトリの**masterブランチ**にPRを送る
