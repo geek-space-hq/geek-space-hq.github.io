@@ -13,9 +13,8 @@
 注: `type = [article, audio, code, gallary, link, page, quote, video]`
 
 articleが一番スタンダードっぽい?
-`${title}` は全てアルファベットでKebab caseとする
+`${title}` は全てアルファベットでkebab-caseとする
 
 2. 生成されたMarkdownファイルにお好みのエディタで記事を書く
-3. `$ hugo`でhtmlとかその他諸々を生成する
-4. Gitでaddしてcommit, push
-5. Fork元リポジトリの**sourceブランチ**にPRを送る
+3. Gitでaddしてcommit, push
+4. Fork元リポジトリの**sourceブランチ**にPRを送る
