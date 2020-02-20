@@ -27,4 +27,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: .
           keep_files: true
-          publish_brunch: master
+          publish_branch: master
