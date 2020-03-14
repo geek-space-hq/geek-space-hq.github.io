@@ -1,7 +1,6 @@
 ---
 title: "Geek-Space 2周年に寄せて"
 date: 2020-03-13T13:32:51+09:00
-draft: true
 
 
 categories: []
