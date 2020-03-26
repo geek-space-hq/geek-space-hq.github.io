@@ -1,14 +1,18 @@
 # geek-space-hq.github.io
 
+## 前提条件
+
+Git, Dockerが使える環境
+
 ## 初期設定
 
 1. このリポジトリをForkしてローカルにClone
-2. Hugoをインストールしてくる(pacmanなら`$ sudo pacman -S hugo`)
+<!-- 2. Hugoをインストールしてくる(pacmanなら`$ sudo pacman -S hugo`) -->
 3. themeを`git submodule`でインストール(`$ git submodule update --init --recursive`)
 
 ## 記事作成方法
 
-1. プロジェクトのRootで`$ hugo new ${type}/${title}.md`
+1. プロジェクトのRootで`$ docker run --rm -v $(pwd):/app peacock0803sz/geek-space-blog:0.9.0 hugo new ${type}/${title}.md`
 
 注: `type = [article, audio, code, gallary, link, page, quote, video]`
 
