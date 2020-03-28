@@ -8,7 +8,7 @@ Git, Dockerが使える環境
 
 1. このリポジトリをForkしてローカルにClone
 <!-- 2. Hugoをインストールしてくる(pacmanなら`$ sudo pacman -S hugo`) -->
-3. themeを`git submodule`でインストール(`$ git submodule update --init --recursive`)
+2. themeを`git submodule`でインストール(`$ git submodule update --init --recursive`)
 
 ## 記事作成方法
 
