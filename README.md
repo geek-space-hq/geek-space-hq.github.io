@@ -22,7 +22,7 @@ Git, (Docker or Hugo)が使える環境
 articleが一番スタンダードっぽい?
 `${title}` は全てアルファベットでkebab-caseとする
 
-2. 生成されたMarkdownファイルにお好みのエディタで記事を書く
-    - 注: metaゾーンの **draft:true** のままだと外部公開されない(PR出すときにはfalseにすること)
+1. 生成されたMarkdownファイルにお好みのエディタで記事を書く
+  - 注: metaゾーンの **draft:true** のままだと外部公開されない(PR出すときにはfalseにすること)
 3. Gitでaddしてcommit, push
 4. Fork元リポジトリの**sourceブランチ**にPRを送る
