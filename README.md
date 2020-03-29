@@ -13,8 +13,8 @@ Git, (Docker or Hugo)が使える環境
 
 1. プロジェクトのRootで
    - Dockerを使う場合 
-    1. `$ docker build -t geek-space-blog .`
-    2. `$ docker run --rm -v $(pwd):/app geek-space-blog hugo new ${type}/${title}.md`
+      1. `$ docker build -t geek-space-blog .`
+      2. `$ docker run --rm -v $(pwd):/app geek-space-blog hugo new ${type}/${title}.md`
    - ローカルのHugoを使う場合: `$ hugo new ${type}/${title}.md`
 
 注: `type = [article, audio, code, gallary, link, page, quote, video]`
@@ -22,7 +22,7 @@ Git, (Docker or Hugo)が使える環境
 articleが一番スタンダードっぽい?
 `${title}` は全てアルファベットでkebab-caseとする
 
-1. 生成されたMarkdownファイルにお好みのエディタで記事を書く
-  - 注: metaゾーンの **draft:true** のままだと外部公開されない(PR出すときにはfalseにすること)
+2. 生成されたMarkdownファイルにお好みのエディタで記事を書く
+   - 注: metaゾーンの **draft:true** のままだと外部公開されない(PR出すときにはfalseにすること)
 3. Gitでaddしてcommit, push
 4. Fork元リポジトリの**sourceブランチ**にPRを送る
